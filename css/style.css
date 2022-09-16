@@ -13,11 +13,11 @@
 header{    
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 50px;
-    }
+    padding: 50px;    
+}
 
 h1{
-    text-align: center;
+    text-align: center;    
     padding: 50px;
     color: #e53170;
 }
@@ -27,31 +27,38 @@ body{
     margin: auto;
 }
 
-.left{
-    float: left;      
-}
 
-.riquadri{
-    width: calc( (100% / 3) - 30px );
-    display: inline-block;
-    margin-bottom: 40px;
-    background-color: #0f0e17;
-    margin-right: 20px;   
-}
 
-.left img{
-    height: 120px;
+.box{
     float: left;
-    margin-right: 15px;
+    width: calc(100% / 3);
+    padding: 20px;           
 }
 
-h3,h4{
+.box1{
+    width: 100%;
+    background-color: #0f0e17;
+}
+
+.left{
+    width: 40%;
+    float: left;    
+}
+
+.text h3,.text h4{
     color: white;
-    padding: 10px;
-    
+    margin-bottom: 25px;    
 }
 
-h5{
-    color: aqua;
+.text h5{
+    color: aqua;   
+}
+
+.p-20{
+    padding-left: 10px;
+}
+
+.text{
+    float: left;
     padding: 10px;
 }
